@@ -1,0 +1,9 @@
+*.d
+*.o
+*.a
+*.pc
+.gdb_history
+
+# C extensions
+*.so*
+*.out

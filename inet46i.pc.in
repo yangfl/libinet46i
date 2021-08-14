@@ -1,0 +1,10 @@
+prefix=@prefix@
+libdir=${prefix}@libdir@
+includedir=${prefix}@includedir@
+
+Name: inet46i
+Description: AF_INET + AF_INET6 + SO_BINDTODEVICE
+Version: @version@
+URL: https://github.com/yangfl/libinet46i
+Libs: -L${libdir} -linet46i
+Cflags: -I${includedir}/inet46i
